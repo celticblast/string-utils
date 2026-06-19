@@ -1,6 +1,7 @@
 # @celticblast/string-utils
 
 [![npm](https://img.shields.io/npm/v/@celticblast/string-utils)](https://www.npmjs.com/package/@celticblast/string-utils)
+[![CI](https://github.com/celticblast/string-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/celticblast/string-utils/actions/workflows/ci.yml)
 
 TypeScript utility functions for trimming, padding, and truncating strings.
 
