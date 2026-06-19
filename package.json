@@ -23,6 +23,9 @@
     "truncate",
     "utils"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "author": "celticblast",
   "license": "MIT",
   "devDependencies": {
