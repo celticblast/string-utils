@@ -1,0 +1,28 @@
+{
+  "name": "string-utils",
+  "version": "1.0.0",
+  "description": "TypeScript utility functions for trimming, padding, and truncating strings",
+  "main": "dist/stringUtils.js",
+  "types": "dist/stringUtils.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "string",
+    "trim",
+    "pad",
+    "truncate",
+    "utils"
+  ],
+  "author": "celticblast",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}
