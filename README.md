@@ -1,6 +1,12 @@
-# string-utils
+# @celticblast/string-utils
 
 TypeScript utility functions for trimming, padding, and truncating strings.
+
+## Installation
+
+```bash
+npm install @celticblast/string-utils
+```
 
 ## Functions
 
@@ -25,7 +31,7 @@ Truncates the middle of a string, keeping the start and end intact.
 ## Usage
 
 ```ts
-import { trim, pad, truncate, truncateMiddle } from "./stringUtils";
+import { trim, pad, truncate, truncateMiddle } from "@celticblast/string-utils";
 
 trim("  hello  ");                        // "hello"
 trim("--hello--", "-");                   // "hello"
@@ -35,7 +41,7 @@ pad("hi", 5, " ", "start");              // "   hi"
 pad("hi", 6, " ", "both");              // "  hi  "
 
 truncate("hello world", 8);              // "hello..."
-truncateMiddle("hello world", 8);        // "hell...d"
+truncateMiddle("hello world", 8);        // "hel...ld"
 ```
 
 ## Testing
