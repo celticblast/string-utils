@@ -1,5 +1,5 @@
 {
-  "name": "string-utils",
+  "name": "@celticblast/string-utils",
   "version": "1.0.0",
   "description": "TypeScript utility functions for trimming, padding, and truncating strings",
   "main": "dist/stringUtils.js",
