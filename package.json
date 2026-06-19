@@ -2,10 +2,12 @@
   "name": "@celticblast/string-utils",
   "version": "1.0.0",
   "description": "TypeScript utility functions for trimming, padding, and truncating strings",
+  "type": "module",
   "main": "dist/stringUtils.js",
   "types": "dist/stringUtils.d.ts",
   "scripts": {
     "build": "tsc",
+    "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -22,7 +24,10 @@
   "author": "celticblast",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.5.0",
     "typescript": "^5.0.0",
+    "typescript-eslint": "^8.61.1",
     "vitest": "^4.1.9"
   }
 }
