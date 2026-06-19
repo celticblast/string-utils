@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@celticblast/string-utils)](https://www.npmjs.com/package/@celticblast/string-utils)
 [![CI](https://github.com/celticblast/string-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/celticblast/string-utils/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/celticblast/string-utils/blob/master/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)](https://www.typescriptlang.org)
 
 TypeScript utility functions for trimming, padding, and truncating strings.
 
