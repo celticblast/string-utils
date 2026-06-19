@@ -27,6 +27,7 @@
     "type": "git",
     "url": "https://github.com/celticblast/string-utils.git"
   },
+  "homepage": "https://github.com/celticblast/string-utils#readme",
   "bugs": {
     "url": "https://github.com/celticblast/string-utils/issues"
   },
