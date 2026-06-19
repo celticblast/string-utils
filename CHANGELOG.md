@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2026-06-19
 
 ### Added
+
 - `trim`, `trimStart`, `trimEnd` — remove whitespace or custom characters from strings
 - `pad` — pad a string to a fixed width with alignment support (`start`, `end`, `both`)
 - `truncate` — truncate a string from the end with a configurable ellipsis
@@ -19,4 +20,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MIT license
 
 ### Fixed
+
 - `truncate` now clips the ellipsis itself when `maxLength` is shorter than the ellipsis length
