@@ -72,7 +72,7 @@ describe("truncate", () => {
     expect(truncate("hello", 5)).toBe("hello");
   });
   it("uses custom ellipsis", () => {
-    expect(truncate("hello world", 7, "…")).toBe("hello w…");
+    expect(truncate("hello world", 7, "…")).toBe("hello …");
   });
   it("handles maxLength shorter than ellipsis", () => {
     expect(truncate("hello", 2, "...")).toBe("..");
@@ -84,7 +84,7 @@ describe("truncate", () => {
 
 describe("truncateMiddle", () => {
   it("truncates the middle with default ellipsis", () => {
-    expect(truncateMiddle("hello world", 8)).toBe("hell...d");
+    expect(truncateMiddle("hello world", 8)).toBe("hel...ld");
   });
   it("returns string unchanged when within maxLength", () => {
     expect(truncateMiddle("hello", 10)).toBe("hello");

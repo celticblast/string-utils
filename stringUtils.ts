@@ -33,6 +33,7 @@ export function pad(str: string, length: number, fillChar = " ", align: PadAlign
 export function truncate(str: string, maxLength: number, ellipsis = "..."): string {
   if (str.length <= maxLength) return str;
   const cutoff = Math.max(0, maxLength - ellipsis.length);
+  if (cutoff === 0) return ellipsis.slice(0, maxLength);
   return str.slice(0, cutoff) + ellipsis;
 }
 
