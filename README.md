@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/celticblast/string-utils/blob/master/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)](https://www.typescriptlang.org)
 [![npm downloads](https://img.shields.io/npm/dm/@celticblast/string-utils)](https://www.npmjs.com/package/@celticblast/string-utils)
+[![Node.js](https://img.shields.io/node/v/@celticblast/string-utils)](https://nodejs.org)
 
 TypeScript utility functions for trimming, padding, and truncating strings.
 
