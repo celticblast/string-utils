@@ -9,6 +9,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["stringUtils.ts"],
+  "include": ["stringUtils.ts", "stringUtils.test.ts"],
   "exclude": ["node_modules", "dist"]
 }
