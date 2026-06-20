@@ -1,13 +1,13 @@
 {
   "name": "@celticblast/string-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "TypeScript utility functions for trimming, padding, and truncating strings",
   "type": "module",
   "main": "dist/stringUtils.js",
   "types": "dist/stringUtils.d.ts",
   "scripts": {
     "build": "tsc",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --project tsconfig.check.json",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
